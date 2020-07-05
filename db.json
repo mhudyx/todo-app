@@ -1,0 +1,88 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Przebiec 5km",
+      "description": "Przebiec 5km z psem",
+      "priority": "low",
+      "priorityId": 1,
+      "endDate": "",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Wypić kawę",
+      "description": "Wypić kawę, żeby nie zasnąć",
+      "priority": "high",
+      "priorityId": 3,
+      "endDate": "",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Umyć samochód",
+      "description": "Umyć samochód jak poprawi się pogoda",
+      "priority": "normal",
+      "priorityId": 2,
+      "endDate": "",
+      "completed": false
+    },
+    {
+      "title": "Pojechać na rower",
+      "description": "Trasa gdańsk-zakopane",
+      "priority": "low",
+      "priorityId": 1,
+      "endDate": "",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "Zaszczepić psa",
+      "description": "",
+      "priority": "high",
+      "priorityId": 3,
+      "endDate": "2020-06-30",
+      "completed": true,
+      "id": 6
+    },
+    {
+      "title": "Umyć kubek",
+      "description": "Ten zielony",
+      "priority": "low",
+      "priorityId": 1,
+      "endDate": "2020-07-01",
+      "completed": true,
+      "id": 7
+    },
+    {
+      "title": "Test",
+      "description": "test1",
+      "priority": "normal",
+      "priorityId": 2,
+      "endDate": "2020-07-03",
+      "completed": true,
+      "id": 8
+    },
+    {
+      "title": "test2",
+      "description": "test",
+      "priority": "normal",
+      "priorityId": 2,
+      "endDate": "2020-07-03",
+      "completed": true,
+      "id": 9
+    },
+    {
+      "title": "Naprawić telefon",
+      "description": "wymienić ekran",
+      "priority": "normal",
+      "priorityId": 2,
+      "endDate": "2020-07-04",
+      "completed": true,
+      "id": 10
+    }
+  ],
+  "deletedTasks": {
+    "quantity": 3
+  }
+}

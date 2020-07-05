@@ -1,0 +1,73 @@
+.registerTask {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+
+    & h2 {
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-around;
+        align-items: center;
+        margin-top: 5vh;
+
+        input {
+            border: 1px #ccc solid;
+        }
+    }
+
+    &__title {
+
+    }
+
+    &__priority {
+    }
+
+    .form--input {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 25px;
+
+        & > div {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        label {
+            margin-left: 5px;
+        }
+
+        input {
+            padding: 2px 4px;
+
+            &:focus {
+                border: 1px #299bf6 solid;
+            }
+        }
+
+        p {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    }
+
+    &--button {
+        padding: 8px 40px;
+        margin-top: 10px;
+        background: #299bf6;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+            background: #3aacf7;
+        }
+    }
+}
